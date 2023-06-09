@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-top: -40px;
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
+}
+
+.center-nav{
+    display: flex;
+}
+
+.search{
+   display: flex; 
+}
+
+.search input{
+    border-radius:30px ;
+   min-width: 600px;
+   padding: 10px 20px ;
+   border: 0.5px solid #ccc;
+}
+
+.search button{
+   
+    border-radius:30px;
+    border: none;
+    padding: 10px 20px;
+}
+
+ .box{
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(226, 219, 219);
+    transition: 2.5s;
+    box-shadow: 2px 2px 2px gray;
+    background-color: white;
+    box-sizing: border-box;
+   
+}
+
+.box:hover{
+    transform: scale(1.3);
+
+}
+.mic{
+    padding: 15px;
+    border-radius: 50%;
+    background: #cbc4c4;
+    display: grid;
+    place-items: center;
+    margin-left: 15px;
+}
+
+.mic img{
+width: 30px;
+
+}
+
+.side-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px;
+}
+
+.tags{
+    display: flex;
+    padding: 10px 20px;
+    gap: 15px;
+    border-top: 1px solid #ccc;
+    margin-top: -30px;
+}
+
+.tag{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(22, 22, 22);
+}
+
+.dark{
+    background: black;
+    color: white;
+}
+.light{
+    background: rgb(211, 206, 206);
+    color:rgb(36, 35, 35) ;
+}
+
+.container{
+display: flex;
+}
+aside{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.side-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+
+.side-icons img{
+    width: 30px;
+}
+
+.side-icons p{
+    font-size: 13px;
+    margin-top:-5px ;
+}
+
+.bars{
+    margin-top: 20px;
+}
+
+.main-container{
+    width: 100%;
+}
+
+main{
+    min-height: 100vh;
+    margin-left: -10px;
+    background: rgba(240, 238, 238);
+}
+
+.card_container{
+    
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr)) ;
+}
+
+.card_container img{
+    border-radius: 10px;
+}
+.avatar-content img{
+    width: 40px;
+}
+
+.card{
+    
+    padding: 10px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-content{
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.channel-name{
+    font-size:16px ;
+    font-weight: bold;
+}
+
+.content-status{
+  display: flex;
+  font-size: 14px;
+  gap: 10px;  
+}
